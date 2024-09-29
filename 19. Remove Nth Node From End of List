@@ -30,3 +30,11 @@ public:
 
     }
 };
+/*used two pointer approach to solve this
+first we added a dummy node at the start and started from there
+one pointer moves n node forward after that other pointer starts moving along with thw second pointer 
+they both move till 2nd pointer reache NULL after that we delete the node just after start->next
+and assign head to just after dummy
+
+
+*/
